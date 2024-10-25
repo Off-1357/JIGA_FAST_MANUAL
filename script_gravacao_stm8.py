@@ -5,7 +5,7 @@ import subprocess
 # Defina as variáveis do GitHub
 REPO_OWNER = "Off-1357"
 REPO_NAME = "JIGA_FAST_MANUAL"
-FILE_PATH = "Debug/Exe/JIGA_MANUAL_PWM.hex"  # Caminho exato para o arquivo no repositório
+FILE_PATH = "Debug/Exe/JIGA_MANUAL_PWM.s19"  # Caminho exato para o arquivo no repositório
 
 # Caminho para o STVP_CmdLine.exe
 STVP_CMD_PATH = "C:\Program Files (x86)\STMicroelectronics\st_toolset\stvp/STVP_CmdLine.exe"
@@ -14,7 +14,7 @@ STVP_CMD_PATH = "C:\Program Files (x86)\STMicroelectronics\st_toolset\stvp/STVP_
 TEMP_DIR = "C:/Temp"
 if not os.path.exists(TEMP_DIR):
     os.makedirs(TEMP_DIR)
-TEMP_HEX_PATH = os.path.join(TEMP_DIR, "JIGA_MANUAL_PWM.hex")
+TEMP_HEX_PATH = os.path.join(TEMP_DIR, "JIGA_MANUAL_PWM.s19")
 
 # Função para baixar o arquivo .hex do GitHub (sem autenticação)
 def baixar_arquivo_hex():
