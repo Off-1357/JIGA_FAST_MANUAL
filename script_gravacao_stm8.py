@@ -8,7 +8,7 @@ REPO_NAME = "JIGA_FAST_MANUAL"
 FILE_PATH = "Debug/Exe/JIGA_MANUAL_PWM.hex"  # Caminho exato para o arquivo no repositório
 
 # Caminho para o STVP_CmdLine.exe
-STVP_CMD_PATH = "C:/Users/otavio.fiorentino/Downloads/en.stvp-lib-stm8/stsw-mcu002/Sample/ApiSample/Release/STVP_CmdLine.exe"
+STVP_CMD_PATH = "C:\Program Files (x86)\STMicroelectronics\st_toolset\stvp/STVP_CmdLine.exe"
 
 # Diretório temporário simples para o arquivo .hex
 TEMP_DIR = "C:/Temp"
